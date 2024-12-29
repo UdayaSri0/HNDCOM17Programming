@@ -1,0 +1,1 @@
+width = input("Width of rectangle: ")
