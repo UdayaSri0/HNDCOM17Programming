@@ -1,25 +1,21 @@
 class BankAccount:
-    # Constructor to initialize a bank account with an account holder name and an optional starting balance
-    def __init__(self, account_holder, balance=0):
-        self.account_holder = account_holder  # Public attribute to store the name of the account holder
-        self._balance = balance  # Protected attribute to store the account balance (accessible within class and subclasses)
+    def __init__(self, account_holder=None, balance=0):
+        self.account_holder = account_holder
+        self.balance = balance
 
-    # Method to deposit money into the account
     def deposit(self, amount):
-        if amount > 0:  # Check if the deposit amount is greater than 0
-            self._balance += amount  # Add the deposit amount to the current balance
-            print(f"Deposited {amount} successfully!")  # Confirmation message for successful deposit
+        if amount > 0:
+            self.balance += amount
+            print(f"Deposited {amount}. New balance: {self.balance}")
         else:
-            print("Invalid deposit amount.")  # Error message for invalid deposit amounts
+            print("Invalid deposit amount.")
 
-    # Method to withdraw money from the account
     def withdraw(self, amount):
-        if amount > 0 and amount <= self._balance:  # Check if withdrawal amount is valid and doesn't exceed the balance
-            self._balance -= amount  # Deduct the withdrawal amount from the current balance
-            print(f"Withdrew {amount} successfully!")  # Confirmation message for successful withdrawal
+        if 0 < amount <= self.balance:
+            self.balance -= amount
+            print(f"Withdrew {amount}. New balance: {self.balance}")
         else:
-            print("Invalid withdrawal amount.")  # Error message for insufficient funds or invalid withdrawal amounts
-
-    # Method to retrieve the current account balance
+            print("Insufficient funds or invalid withdrawal amount.")
+    
     def get_balance(self):
-        return self._balance  # Return the current balance
+        return self.balance
