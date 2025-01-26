@@ -1,0 +1,15 @@
+D:\Projects\HND\HNC COM 17\W9\SampleProject\bin\Debug\net9.0\SampleProject.exe
+D:\Projects\HND\HNC COM 17\W9\SampleProject\bin\Debug\net9.0\SampleProject.deps.json
+D:\Projects\HND\HNC COM 17\W9\SampleProject\bin\Debug\net9.0\SampleProject.runtimeconfig.json
+D:\Projects\HND\HNC COM 17\W9\SampleProject\bin\Debug\net9.0\SampleProject.dll
+D:\Projects\HND\HNC COM 17\W9\SampleProject\bin\Debug\net9.0\SampleProject.pdb
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.AssemblyInfoInputs.cache
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.AssemblyInfo.cs
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.csproj.CoreCompileInputs.cache
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.sourcelink.json
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.dll
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\refint\SampleProject.dll
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.pdb
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\SampleProject.genruntimeconfig.cache
+D:\Projects\HND\HNC COM 17\W9\SampleProject\obj\Debug\net9.0\ref\SampleProject.dll
